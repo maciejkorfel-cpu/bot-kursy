@@ -1,0 +1,50 @@
+name: Bot kursow
+
+on:
+  schedule:
+    - cron: "5 * * * 1-5"   # alerty: co godzinę, pon–pt (czas UTC)
+    - cron: "0 7 * * 1-5"   # podsumowanie: 7:00 UTC = 8:00 zimą / 9:00 latem w PL
+  workflow_dispatch:         # ręczne uruchomienie z zakładki Actions
+    inputs:
+      mode:
+        description: "check / summary / test"
+        default: "test"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kursy-bot          # dwa uruchomienia nie nadpisują sobie stanu
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Uruchom bota
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python bot.py "${{ github.event.inputs.mode }}"
+          elif [ "${{ github.event.schedule }}" = "0 7 * * 1-5" ]; then
+            python bot.py summary
+          else
+            python bot.py check
+          fi
+
+      - name: Zapisz stan (żeby nie dublować alertów)
+        run: |
+          git config user.name "kursy-bot"
+          git config user.email "kursy-bot@users.noreply.github.com"
+          git add state.json || true
+          git diff --cached --quiet || (git commit -m "aktualizacja stanu" && git push)
