@@ -21,7 +21,7 @@
   },
   "EURUSD=X": {
     "chg_day": "2026-10-02",
-    "chg_step": 0,
+    "chg_step": 1,
     "lo_day": "2026-10-02"
   },
   "GBPUSD=X": {
