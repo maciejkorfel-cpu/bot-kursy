@@ -34,21 +34,21 @@
     "chg_step": 0
   },
   "GC=F": {
-    "chg_day": "2026-10-08",
-    "chg_step": 0,
+    "chg_day": "2026-10-09",
+    "chg_step": 1,
     "lo_day": "2026-10-07"
   },
   "SI=F": {
-    "chg_day": "2026-10-08",
-    "chg_step": 0,
+    "chg_day": "2026-10-09",
+    "chg_step": 1,
     "lo_day": "2026-10-08"
   },
   "BZ=F": {
-    "chg_day": "2026-10-08",
-    "chg_step": 2
+    "chg_day": "2026-10-09",
+    "chg_step": 0
   },
   "CL=F": {
-    "chg_day": "2026-10-08",
-    "chg_step": 2
+    "chg_day": "2026-10-09",
+    "chg_step": 0
   }
 }
