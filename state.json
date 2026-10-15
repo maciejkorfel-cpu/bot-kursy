@@ -1,36 +1,36 @@
 {
   "EURPLN=X": {
-    "chg_day": "2026-10-14",
+    "chg_day": "2026-10-15",
     "chg_step": 0,
     "hi_day": "2026-10-13"
   },
   "USDPLN=X": {
-    "chg_day": "2026-10-14",
-    "chg_step": 1,
+    "chg_day": "2026-10-15",
+    "chg_step": 0,
     "hi_day": "2026-10-14"
   },
   "GBPPLN=X": {
-    "chg_day": "2026-10-14",
+    "chg_day": "2026-10-15",
     "chg_step": 0,
     "hi_day": "2026-10-13"
   },
   "JPYPLN=X": {
-    "chg_day": "2026-10-14",
-    "chg_step": 1,
+    "chg_day": "2026-10-15",
+    "chg_step": 0,
     "hi_day": "2026-10-13"
   },
   "EURUSD=X": {
-    "chg_day": "2026-10-14",
+    "chg_day": "2026-10-15",
     "chg_step": 0,
     "lo_day": "2026-10-14"
   },
   "GBPUSD=X": {
-    "chg_day": "2026-10-14",
+    "chg_day": "2026-10-15",
     "chg_step": 0,
     "lo_day": "2026-10-14"
   },
   "JPY=X": {
-    "chg_day": "2026-10-14",
+    "chg_day": "2026-10-15",
     "chg_step": 0
   },
   "GC=F": {
