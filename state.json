@@ -31,25 +31,25 @@
   },
   "JPY=X": {
     "chg_day": "2026-10-22",
-    "chg_step": 0
+    "chg_step": 1
   },
   "GC=F": {
-    "chg_day": "2026-10-21",
+    "chg_day": "2026-10-22",
     "chg_step": 0,
-    "lo_day": "2026-10-14"
+    "lo_day": "2026-10-22"
   },
   "SI=F": {
-    "chg_day": "2026-10-21",
+    "chg_day": "2026-10-22",
     "chg_step": 0,
     "lo_day": "2026-10-14"
   },
   "BZ=F": {
-    "chg_day": "2026-10-21",
-    "chg_step": 0,
-    "hi_day": "2026-10-21"
+    "chg_day": "2026-10-22",
+    "chg_step": 1,
+    "hi_day": "2026-10-22"
   },
   "CL=F": {
-    "chg_day": "2026-10-21",
-    "chg_step": 2
+    "chg_day": "2026-10-22",
+    "chg_step": 1
   }
 }
