@@ -1,13 +1,13 @@
 {
   "EURPLN=X": {
-    "chg_day": "2026-10-23",
-    "chg_step": 2,
-    "hi_day": "2026-10-23"
+    "chg_day": "2026-10-24",
+    "chg_step": 1,
+    "hi_day": "2026-10-24"
   },
   "USDPLN=X": {
-    "chg_day": "2026-10-23",
-    "chg_step": 2,
-    "hi_day": "2026-10-23"
+    "chg_day": "2026-10-24",
+    "chg_step": 1,
+    "hi_day": "2026-10-24"
   },
   "GBPPLN=X": {
     "chg_day": "2026-10-23",
