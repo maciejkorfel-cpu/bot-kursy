@@ -1,17 +1,17 @@
 {
   "EURPLN=X": {
     "chg_day": "2026-10-23",
-    "chg_step": 0,
+    "chg_step": 1,
     "hi_day": "2026-10-13"
   },
   "USDPLN=X": {
     "chg_day": "2026-10-23",
-    "chg_step": 0,
+    "chg_step": 1,
     "hi_day": "2026-10-14"
   },
   "GBPPLN=X": {
     "chg_day": "2026-10-23",
-    "chg_step": 0,
+    "chg_step": 1,
     "hi_day": "2026-10-23"
   },
   "JPYPLN=X": {
@@ -34,22 +34,22 @@
     "chg_step": 1
   },
   "GC=F": {
-    "chg_day": "2026-10-22",
-    "chg_step": 1,
-    "lo_day": "2026-10-22"
+    "chg_day": "2026-10-23",
+    "chg_step": 0,
+    "lo_day": "2026-10-23"
   },
   "SI=F": {
-    "chg_day": "2026-10-22",
-    "chg_step": 2,
-    "lo_day": "2026-10-22"
+    "chg_day": "2026-10-23",
+    "chg_step": 0,
+    "lo_day": "2026-10-23"
   },
   "BZ=F": {
-    "chg_day": "2026-10-22",
-    "chg_step": 2,
-    "hi_day": "2026-10-22"
+    "chg_day": "2026-10-23",
+    "chg_step": 0,
+    "hi_day": "2026-10-23"
   },
   "CL=F": {
-    "chg_day": "2026-10-22",
-    "chg_step": 1
+    "chg_day": "2026-10-23",
+    "chg_step": 0
   }
 }
